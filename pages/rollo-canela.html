@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rollo de Canela - Panadería (Nombre)</title>
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/grid.css">
+	<link rel="stylesheet" href="../css/work.css">
+</head>
+<body>
+	<section class="inline">
+		<button onclick="redirect('../productos.html')">← Atrás</button>
+		<div class="center">
+			<img src="../img/cinnamon-rolls.jpg" alt="">
+			<div class="span">
+				<h1>Rollos de Canela</h1>
+				<p>$6.00 USD</p>
+			</div>
+			<p class="desc">Hecho con masa caliente, relleno con canela y decorado con un exquisito glaceado, estos son la mejor forma de pasar un atardecer con amigos.</p>
+		</div>
+	</section>
+	<script>
+		function redirect(addr)
+		{
+			console.log(addr);
+			window.location.href = addr;
+		}
+	</script>
+</body>
+</html>
