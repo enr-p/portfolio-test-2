@@ -89,7 +89,7 @@ section {
 	transform: translate(0, 0);
 }
 .backgroundfill > img {
-	max-width: 100%;
+	width: 100%;
 }
 .second {
 	padding-top: 5px
